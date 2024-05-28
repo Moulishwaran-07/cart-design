@@ -1,0 +1,191 @@
+@font-face {
+    font-family: RadioCanadaBigItalicVariableFontwght;
+    src: url('../assets/font/RadioCanadaBigItalicVariableFontwght.ttf');
+}
+
+@font-face {
+    font-family: RobotoSlabVariableFontwght;
+    src: url('../assets/font/RobotoSlabVariableFontwght.ttf');
+}
+
+body {
+    background-color: white;
+}
+
+.cart {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+
+}
+
+.design {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+    row-gap: 50px;
+    margin-left: -0px;
+}
+
+.card {
+    width: 250px;
+    height: 400px;
+    /* margin: 20px; */
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    background-color: #e9edc9;
+    cursor: pointer;
+}
+
+.card img {
+    height: 65%;
+    width: 95%;
+    margin-left: 9px;
+    border-radius: 8px;
+}
+
+.card h2 {
+    font-size: 1.08rem;
+    margin-left: 15px;
+    font-family: RobotoSlabVariableFontwght;
+    font-weight: 800;
+}
+
+
+
+.card .category {
+  
+    margin-left: 15px;
+    font-size: 1.1rem;
+    font-family: RobotoSlabVariableFontwght;
+    font-weight: 600;
+    color: #588157;
+}
+.card button {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 0px;
+    background-color: #e9edc9;
+    color: black;
+    font-weight: bolder;
+    margin-left: 15px;
+    border-radius: 3px;
+    border: 3px solid #588157;
+}
+
+.filter {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 220px;
+    background-color: #e9edc9;
+}
+
+.filter h5 {
+    font-size: 1.3rem;
+    font-family: RobotoSlabVariableFontwght;
+    padding: 0px 4px 0px 10px;
+    margin-top: -0px;
+    background-color: #588157;
+    color: white;
+}
+
+input[type="checkbox"] {
+    height: 15px;
+    width: 15px;
+    accent-color: green;
+    margin-left: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.all {
+    font-size: 1.08rem;
+    font-family: RadioCanadaBigItalicVariableFontwght;
+    font-weight: 600;
+    margin-top: -25px;
+}
+
+.collection1 {
+    margin-top: 20px;
+}
+
+
+
+.fir {
+    font-size: 1.08rem;
+    font-family: RadioCanadaBigItalicVariableFontwght;
+    font-weight: 600;
+    margin-top: -23px;
+}
+
+.sec,
+.thr,
+.fou,
+.fiv,
+.six,
+.sev {
+    font-size: 1.08rem;
+    font-family: RadioCanadaBigItalicVariableFontwght;
+    font-weight: 600;
+}
+
+.collection2 h5 {
+    margin-top: 20px;
+}
+
+.fir1 {
+    font-size: 1.08rem;
+    font-family: RadioCanadaBigItalicVariableFontwght;
+    font-weight: 600;
+    margin-top: -23px;
+}
+
+.sec1,
+.thr1,
+.fou1,
+.fiv1,
+.six1 {
+    font-size: 1.08rem;
+    font-family: RadioCanadaBigItalicVariableFontwght;
+    font-weight: 600;
+}
+
+.collection3 h5 {
+    margin-top: 20px;
+}
+
+.fir2 {
+    font-size: 1.08rem;
+    font-family: RadioCanadaBigItalicVariableFontwght;
+    font-weight: 600;
+    margin-top: -23px;
+}
+
+.sec2,
+.thr2 {
+    font-size: 1.08rem;
+    font-family: RadioCanadaBigItalicVariableFontwght;
+    font-weight: 600;
+}
+
+.collection4 h5 {
+    margin-top: 20px;
+}
+
+.fir3 {
+    font-size: 1.08rem;
+    font-family: RadioCanadaBigItalicVariableFontwght;
+    font-weight: 600;
+    margin-top: -23px;
+}
+
+.sec3,
+.thr3,
+.fou3 {
+    font-size: 1.08rem;
+    font-family: RadioCanadaBigItalicVariableFontwght;
+    font-weight: 600;
+}
