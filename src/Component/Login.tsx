@@ -57,7 +57,7 @@ function Login() {
         ReadData.map((element: any) => {
             if ((element.username === loginData.username) && (element.password === loginData.password)) {
                 Navigate1('/cart')
-                // console.log("world")
+                
             }
             else {
 
@@ -70,7 +70,7 @@ function Login() {
 
 
         })
-        // console.log(loginData)
+       
         setLoginData({
             username: "",
             password: "",

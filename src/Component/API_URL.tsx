@@ -1,1 +1,1 @@
-export const API_URL="https://664460536c6a6565870a1fa5.mockapi.io/cart"
+export const API_URL="https://664460536c6a6565870a1fa5.mockapi.io/cart" 

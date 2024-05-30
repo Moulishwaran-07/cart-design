@@ -11,14 +11,21 @@
 body {
     background-color: white;
 }
+.head
+{
+    margin-top: -20px;
+}
+.head h1{
+    font-size: 4.2rem;
+    text-align: center;
+    font-family: RobotoSlabVariableFontwght;
+}
 
 .cart {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 100px;
-
 }
-
 .design {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -30,12 +37,16 @@ body {
 .card {
     width: 250px;
     height: 400px;
-    /* margin: 20px; */
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     overflow: hidden;
     background-color: #e9edc9;
     cursor: pointer;
+}
+.card:hover
+{
+    /* background-color:#fefae0; */
+    background-color: white;
 }
 
 .card img {
@@ -51,11 +62,7 @@ body {
     font-family: RobotoSlabVariableFontwght;
     font-weight: 800;
 }
-
-
-
 .card .category {
-  
     margin-left: 15px;
     font-size: 1.1rem;
     font-family: RobotoSlabVariableFontwght;
@@ -74,14 +81,32 @@ body {
     border-radius: 3px;
     border: 3px solid #588157;
 }
+button:hover
+{
+    background-color: #6b9080;
+}
 
+.cart .cart_btn
+{
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 15px;
+    background-color: #e9edc9;
+    border: 3px solid #3a5a40;
+    color: #588157;
+   
+}
+.cart_btn:hover
+{
+    background-color: #cce3de;
+}
 .filter {
     margin-top: 0px;
     margin-left: 0px;
     width: 220px;
     background-color: #e9edc9;
 }
-
 .filter h5 {
     font-size: 1.3rem;
     font-family: RobotoSlabVariableFontwght;
@@ -90,37 +115,30 @@ body {
     background-color: #588157;
     color: white;
 }
-
-input[type="checkbox"] {
+input[type="radio"] {
     height: 15px;
     width: 15px;
     accent-color: green;
+    color: #006400;
     margin-left: 15px;
     margin-top: 10px;
     cursor: pointer;
-
 }
-
 .all {
     font-size: 1.08rem;
     font-family: RadioCanadaBigItalicVariableFontwght;
     font-weight: 600;
     margin-top: -25px;
 }
-
 .collection1 {
     margin-top: 20px;
 }
-
-
-
 .fir {
     font-size: 1.08rem;
     font-family: RadioCanadaBigItalicVariableFontwght;
     font-weight: 600;
     margin-top: -23px;
 }
-
 .sec,
 .thr,
 .fou,
@@ -131,18 +149,15 @@ input[type="checkbox"] {
     font-family: RadioCanadaBigItalicVariableFontwght;
     font-weight: 600;
 }
-
 .collection2 h5 {
     margin-top: 20px;
 }
-
 .fir1 {
     font-size: 1.08rem;
     font-family: RadioCanadaBigItalicVariableFontwght;
     font-weight: 600;
     margin-top: -23px;
 }
-
 .sec1,
 .thr1,
 .fou1,
@@ -152,36 +167,30 @@ input[type="checkbox"] {
     font-family: RadioCanadaBigItalicVariableFontwght;
     font-weight: 600;
 }
-
 .collection3 h5 {
     margin-top: 20px;
 }
-
 .fir2 {
     font-size: 1.08rem;
     font-family: RadioCanadaBigItalicVariableFontwght;
     font-weight: 600;
     margin-top: -23px;
 }
-
 .sec2,
 .thr2 {
     font-size: 1.08rem;
     font-family: RadioCanadaBigItalicVariableFontwght;
     font-weight: 600;
 }
-
 .collection4 h5 {
     margin-top: 20px;
 }
-
 .fir3 {
     font-size: 1.08rem;
     font-family: RadioCanadaBigItalicVariableFontwght;
     font-weight: 600;
     margin-top: -23px;
 }
-
 .sec3,
 .thr3,
 .fou3 {
